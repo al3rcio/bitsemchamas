@@ -15,6 +15,6 @@ def after_request(response):
     return response
 
 @app.route("/")
-def index():
+def indice():
 
-    return render_template('layout.html')
+    return render_template('indice.html')
