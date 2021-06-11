@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172629397-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172629397-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-	  gtag('config', 'UA-172629397-1');
-	</script>
+            gtag('config', 'UA-172629397-1');
+        </script>
 
-    <meta charset="utf-8" />
+        <meta charset="utf-8" />
 
-    <!-- Texto que vai aparecer nas buscas tipo Google-->
-    <meta name="author" content="Apj e Bruno Lucas" />
-    <meta name="description" content="Site oficial do projeto Bits em Chamas (BeC).
-                                      Links para as plataformas de streaming, redes sociais,
-                                      ilustrações. Textos sobre os álbuns, sobre os artistas.
-                                      Zero e um, bits, bytes e viva à Floresta Amazônica!" />
-    <!--fim texto buscas-->
+        <!-- Texto que vai aparecer nas buscas tipo Google-->
+        <meta name="author" content="Apj e Bruno Lucas" />
+        <meta name="description" content="Site oficial do projeto Bits em Chamas (BeC).
+                                            Links para as plataformas de streaming, redes sociais,
+                                            ilustrações. Textos sobre os álbuns, sobre os artistas.
+                                            Zero e um, bits, bytes e viva à Floresta Amazônica!" />
+        <!--fim texto buscas-->
 
-    <!-- Texto e imagem (substituir) q vão aparecer vinculados ao facebook e outras páginas afim-->
-    <meta property="og:image" content="https://i.ibb.co/G7g8N4r/bec-avatar.jpg" />
-    <meta property="og:description" content="Site oficial do projeto Bits em Chamas (BeC).
-                                      Links para as plataformas de streaming, redes sociais,
-                                      ilustrações. Textos sobre os álbuns, sobre os artistas.
-                                      Zero e um, bits, bytes e viva à Floresta Amazônica!" />
-    <meta property="og:title" content="#BeC"  />
-    <!--fim meta facebook etc-->
+        <!-- Texto e imagem (substituir) q vão aparecer vinculados ao facebook e outras páginas afim-->
+        <meta property="og:image" content="https://i.ibb.co/G7g8N4r/bec-avatar.jpg" />
+        <meta property="og:description" content="Site oficial do projeto Bits em Chamas (BeC).
+                                            Links para as plataformas de streaming, redes sociais,
+                                            ilustrações. Textos sobre os álbuns, sobre os artistas.
+                                            Zero e um, bits, bytes e viva à Floresta Amazônica!" />
+        <meta property="og:title" content="#BeC"  />
+        <!--fim meta facebook etc-->
 
-    <!-- meta para Twitter-->
-    <meta name="twitter:title" content="#BeC" />
-    <meta name="twitter:image" content="https://i.ibb.co/G7g8N4r/bec-avatar.jpg" />
-    <meta name="twitter:description" content="Site oficial do projeto Bits em Chamas (BeC).
-                                      Links para as plataformas de streaming, redes sociais,
-                                      ilustrações. Textos sobre os álbuns, sobre os artistas.
-                                      Zero e um, bits, bytes e viva à Floresta Amazônica!" />
-    <!--fim meta twitter-->
-	<!-- ajuste tela celular-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- fim ajuste tela celular-->
+        <!-- meta para Twitter-->
+        <meta name="twitter:title" content="#BeC" />
+        <meta name="twitter:image" content="https://i.ibb.co/G7g8N4r/bec-avatar.jpg" />
+        <meta name="twitter:description" content="Site oficial do projeto Bits em Chamas (BeC).
+                                            Links para as plataformas de streaming, redes sociais,
+                                            ilustrações. Textos sobre os álbuns, sobre os artistas.
+                                            Zero e um, bits, bytes e viva à Floresta Amazônica!" />
+        <!--fim meta twitter-->
+        <!-- ajuste tela celular-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- fim ajuste tela celular-->
 
-	<meta name="keywords" content="música, indie, artista independente, spotify, arte"/>
-	<meta name="robots" content="index, follow"/>
-	<meta http-equiv="content-language" content="pt-br" />
-    <title> {% block title %}{% endblock %} </title>
-    <!-- CSS ref-->
-    <link rel="stylesheet" href="static/style.css"/>
-    <!-- ícone title -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    
-  </head>
-  <body>
+        <meta name="keywords" content="música, indie, artista independente, spotify, arte"/>
+        <meta name="robots" content="index, follow"/>
+        <meta http-equiv="content-language" content="pt-br" />
+        <title> {% block title %}{% endblock %} </title>
+        <!-- CSS ref-->
+        <link rel="stylesheet" href="static/style.css"/>
+        <!-- ícone title -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-    <main>
-        {% block main %}{% endblock %}
-    </main>
+    </head>
+    <body>
 
-  </body>
+        <main>
+            {% block main %}{% endblock %}
+        </main>
+
+    </body>
+
+</html>
 
