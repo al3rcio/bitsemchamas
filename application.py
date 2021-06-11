@@ -1,7 +1,13 @@
 from flask import Flask, redirect, render_template, request
+from jinja2 import Environment, PackageLoader, select_autoescape
 
 # Configure application
 app = Flask(__name__)
+
+env = Environment(
+    loader=PackageLoader("application.py"),
+    autoescape=select_autoescape()
+)
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -17,4 +23,4 @@ def after_request(response):
 @app.route("/")
 def indice():
 
-    return render_template('indice.html')
+    return render_template('index.html')
