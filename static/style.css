@@ -17,30 +17,23 @@ body
     padding-left: 100px;
 }
 
-.box {
+.textbox {
     width: 300px;
     height: auto;
     border: 2px solid black;
     box-shadow: 10px 10px black;
-    align-items: left;
-    justify-content: left;
     padding: 20px;
+    display: inline-block;
     }
 
-p
-{
-    color: white;
-    padding: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+.imagebox {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+    display: inline-block;
 }
 
-/* .box-hw
-{
-    
-   
-
-} */
 form
 {
     position: fixed;
