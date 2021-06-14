@@ -14,3 +14,8 @@ def index():
 
     return render_template('index.html')
 
+@app.route("/hw")
+def hw():
+
+    return render_template('hw.html')
+

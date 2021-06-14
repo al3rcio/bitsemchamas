@@ -1,13 +1,42 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 body
 {    
     background-image: url("/static/images/textura01.jpg");
-    /* background-size: 100%; */
+    /* código por MXLink retirado Stack Overflow 
+    pra background funcionando em desktop e mobile */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
+    padding-left: 100px;
 }
+
+div {
+    padding-top: 50 0px;
+    
+}
+.parent {
+    height: 200px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 200px;
+    padding-left: 200px;
+    
+    }
+    .child {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+    }
+
 p
 {
     color: white;
@@ -15,6 +44,17 @@ p
     padding-left: 80px;
     padding-right: 80px;
 }
+.box-text
+{
+    padding: 20px;
+}
+
+/* .box-hw
+{
+    
+   
+
+} */
 form
 {
     position: fixed;
