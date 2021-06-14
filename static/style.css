@@ -17,24 +17,14 @@ body
     padding-left: 100px;
 }
 
-div {
-    padding-top: 50 0px;
-    
-}
-.parent {
-    height: 200px;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    padding-top: 200px;
-    padding-left: 200px;
-    
-    }
-    .child {
+.box {
     width: 300px;
-    height: 300px;
+    height: auto;
     border: 2px solid black;
     box-shadow: 10px 10px black;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
     }
 
 p
@@ -43,10 +33,6 @@ p
     padding: 20px;
     padding-left: 80px;
     padding-right: 80px;
-}
-.box-text
-{
-    padding: 20px;
 }
 
 /* .box-hw
