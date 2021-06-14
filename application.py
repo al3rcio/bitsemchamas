@@ -1,3 +1,6 @@
+# linha pra criar o servidor
+# export FLASK_APP=application.py
+
 from flask import Flask, redirect, render_template, request
 
 # Configure application
