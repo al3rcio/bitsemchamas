@@ -167,12 +167,13 @@ ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
   
-    /* body {
+    body {
 
-        background-image: url("/static/images/textura01-vertical.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;  
-    } */
+        background-image: url("/static/images/fundo-vertical.png");  */
+        background-size: 100%;
+        background-repeat: repeat;
+      
+    }
 
     h1 {
         font-size: 50px;
