@@ -14,10 +14,9 @@ body
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
-    padding-left: 100px;
 }
 
-.textbox {
+.textbox1 {
     width: 300px;
     height: auto;
     border: 2px solid black;
@@ -26,12 +25,26 @@ body
     display: inline-block;
     }
 
-.imagebox {
+.imagebox1 {
     width: 300px;
     height: auto;
     border: 2px solid black;
     box-shadow: 10px 10px black;
     display: inline-block;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form
@@ -129,14 +142,16 @@ img
 
 ul.topnav {
   list-style-type: none;
-
+  font-weight: bold;
   margin: 0;
   padding: 20px 50px 0px 0px;
   overflow: hidden;
   font-size: 12px;
   position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 100px;
+  right: 0px;
 }
 
 ul.topnav li 
