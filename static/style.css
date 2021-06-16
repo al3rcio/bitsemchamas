@@ -4,15 +4,17 @@
             box-sizing: border-box;
 }
 
-body
+html, body, div
 {    
     padding: 2em;
-    background-image: url("/static/images/textura01.jpg");
+    /* background-image: url("/static/images/textura01.jpg"); */
+    background-color: yellow;
+    color: yellow;
     /* código por MXLink retirado Stack Overflow 
     pra background funcionando em desktop e mobile */
     
-    background-position: center;
-    background-size: cover;
+    /* background-position: center;
+    background-size: cover; */
 
     /* width: 100%; */
     /* height:100vh;  responsive height */
@@ -21,7 +23,7 @@ body
 .textbox1 {
     width: 50%;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid back;
     box-shadow: 10px 10px black;
     padding: 20px;
     display: inline-block;
@@ -192,10 +194,10 @@ ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
   
-    body {
+    /* body {
 
         background-image: url("/static/images/fundo-vertical.png");    
-    }
+    } */
 
     h1 {
         font-size: 50px;
