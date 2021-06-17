@@ -35,8 +35,6 @@ html, body, div
     border: 2px solid black;
     box-shadow: 10px 10px black;
     display: inline-block;
-    
-    
 }
 
 .box1 {
@@ -45,7 +43,6 @@ html, body, div
     justify-content: center;
     align-items: center;
     /* padding: 10px 3% 20px; */
-
 }
 
 .box2 {
@@ -65,86 +62,74 @@ form
     padding: 5px;
     text-align: right;
 }
-input[type=submit]
-{
+
+input[type=submit] {
     background: rgb(76, 158, 176);
     color: yellow;
 }
-input[type=text]
-{
+
+input[type=text] {
     background: #6f42c1;
     color: yellow;
     border: none;
 }
 
-::placeholder
-{
+::placeholder {
   color: yellow;
   opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder  /* Internet Explorer 10-11 */
-{
+:-ms-input-placeholder  /* Internet Explorer 10-11 */ {
      color: white;
 }
 
-::-ms-input-placeholder /* Microsoft Edge */
-{
+::-ms-input-placeholder /* Microsoft Edge */ {
  color: white;
 }
 
-label
-{
+label {
     color: rgb(76, 158, 176);
     padding-right: 10px;
 }
 
-h1, h6
-{
+h1, h6 {
     text-align: center;
     font-size: 100px;
     padding: 100px;
     padding-top: 200px;
     color: white;
 }
-h2, h3
-{
+
+h2, h3 {
     padding: 20px;
     padding-left: 40px;
     color: rgb(76, 158, 176);
 }
 
-.center
-{
+.center {
     margin: auto;
     width: 60%;
-
     padding: 70px 0;
 }
 
-table
-{
+table {
     text-align: left;
-
     color: rgb(76, 158, 176);
-
 }
-tr, th, td
-{
+
+tr, th, td {
     padding-left: 30px;
     padding-right: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-th
-{
+th {
     font-size: 20px;
 }
 
 tr:hover {background-color: #f5f5f5;}
 
-img
-{
+img {
     width: 100%;
     height: auto;
 }
@@ -161,12 +146,10 @@ ul.topnav {
   /* position: fixed; */
   top: 0;
   left: 100px;
-  right: 0px;
-  
+  right: 0px; 
 }
 
-ul.topnav li 
-{
+ul.topnav li {
     float: right;
     padding: 20px 2px 2px 2px;
 }
@@ -176,17 +159,14 @@ ul.topnav li a {
   color: rgb(76, 158, 176);
   text-align: center;
   padding: 2px 10px;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
-ul.topnav li a:hover:not(.active) 
-{
+ul.topnav li a:hover:not(.active) {
     background-color: #202020; 
     color: white;
     border-radius: 25px;
 }
-
 
 ul.topnav li a.active {background-color: #6f42c1;}
 
@@ -200,8 +180,7 @@ ul.topnav li.right {float: right;}
     } */
 
     h1 {
-        font-size: 50px;
-        
+        font-size: 50px;  
     }
         
     ul.topnav li.right,
@@ -213,10 +192,5 @@ ul.topnav li.right {float: right;}
     .box2 {
         align-items: center;
     }
-
- 
-    
-    
-
 }
 

@@ -34,3 +34,18 @@ def cave():
 
     return render_template('cave.html')
 
+@app.route("/2020")
+def doismilevinte():
+
+    return render_template('2020.html')
+
+@app.route("/2050")
+def doismilecinquenta():
+
+    return render_template('2050.html')
+
+@app.route("/thx")
+def thx():
+
+    return render_template('thx.html')
+
