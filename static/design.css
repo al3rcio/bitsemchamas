@@ -4,8 +4,28 @@
     color: white;
   }
 
+  p {
+    font-size: 12px;
+  }
+
+  a:link {
+    color : yellow;
+    text-decoration: none;
+    padding-left: 0em;
+  }
+  
+  a:visited {
+      color : yellow;
+  }
+  
+  a:hover {
+      text-decoration: none;
+      color: white;  
+  }
+
   h2 {
-    color: rgb(76, 158, 176)
+    color: rgb(76, 158, 176);
+    
   }
 
   .youtube-container {
@@ -67,6 +87,8 @@
     
   }
 
+
+
 h1 {
     color: white;
     text-align: center;
@@ -74,9 +96,12 @@ h1 {
 }
 
 .colunas {
-    columns: 300px 3;
-    padding: 5%;
-    display: flex;
+    columns: 70px 3;
+    padding: 2% 1% 2% 5%;
+    margin-left: 7%;
+    margin-right: 10%;
+    column-gap: 20px;
+   
 }
 
 
@@ -115,6 +140,8 @@ ul.topnav {
       color: white;
       border-radius: 25px;
   }
+
+
   
   
   ul.topnav li a.active {background-color: #6f42c1;}
@@ -135,6 +162,10 @@ ul.topnav {
   
       .box2 {
           align-items: center;
+      }
+
+      .colunas {
+        column-count: 1;
       }
   }
 
