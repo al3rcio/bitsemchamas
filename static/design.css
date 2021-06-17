@@ -24,8 +24,11 @@
   }
 
   h2 {
-    color: rgb(76, 158, 176);
-    
+    color: rgb(76, 158, 176);  
+  }
+
+  .nome {
+    text-align: center;
   }
 
   .youtube-container {
