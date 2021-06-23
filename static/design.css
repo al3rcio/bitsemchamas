@@ -16,8 +16,14 @@
     background-size: 100%;
   }
 
-  .capa {
+  .capa-container {
     text-align: center;
+  }
+    
+
+  .capa {
+    width: 55%;
+    height: auto;
   }
 
   a {
