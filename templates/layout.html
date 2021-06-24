@@ -52,6 +52,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         <!-- ctrl+shift+R pra atualizar CSS --> 
         <link href="/static/design.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
         <!-- ícone title -->
         <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" /> -->
@@ -60,8 +61,8 @@
     </head>
     <body>
 
-        <ul class="topnav">
-            <li><a href="/"> HOME </a></li>
+        <!-- <ul class="topnav" id="myTopnav">
+            <li><a href="/" class="active"> HOME </a></li>
             <li><a href="/bec"> BITS EM CHAMAS </a></li>
             <li><a href="/cave"> CAVE </a></li>
             <li><a href="/eqt"> ELA QUER TUDO </a></li>
@@ -69,11 +70,39 @@
             <li><a href="/hw"> HELLO WORLD </a></li>
             <li><a href="/2020"> 2020 </a></li>
             <li><a href="/2050"> 2050 </a></li>
-        </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </ul> -->
+
+        <div class="topnav" id="myTopnav">
+            <a href="/" class="active"> Home </a>
+            <a href="/bec"> Bits em Chamas </a>
+            <!-- <a href="/cave"> Cave </a>
+            <a href="/eqt"> Ela quer tudo </a>
+            <a href="/feq"> Frágil equilíbrio </a> -->
+            <a href="/hw"> Hello World </a>
+            <!-- <a href="/2020"> 2020 </a> -->
+            <a href="/2050"> 2050 </a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
 
         <main>
             {% block main %}{% endblock %}
         </main>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
 
     </body>
 
