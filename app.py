@@ -1,6 +1,6 @@
 # linha pra criar o servidor
-# export FLASK_APP=application.py
-
+# export FLASK_APP=app.py
+# para atualizar site: git push heroku master
 from flask import Flask, redirect, render_template, request
 
 # Configure application
