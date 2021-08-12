@@ -53,3 +53,10 @@ def thx():
 
         return render_template('thx.html')
 
+@app.route("/cave-game")
+def caveGame():
+        
+        return render_template('cave-game.html')
+
+
+
