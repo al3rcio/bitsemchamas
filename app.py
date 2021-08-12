@@ -58,5 +58,10 @@ def caveGame():
         
         return render_template('cave-game.html')
 
+@app.route("/no-mobile")
+def noMobile():
+
+        return render_template('no-mobile.html')
+
 
 

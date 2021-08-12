@@ -3,3 +3,65 @@ http://bit.ly/BitsEmChamasHelloWorld
 http://bit.ly/BitsEmChamasCave
 
 http://bit.ly/BitsEmChamasElaQuerTudo
+
+
+div.topnav {
+  
+  background-color: whitesmoke;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  padding-left: 30%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 0%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav a {
+  float: left !important;
+  margin: 0mm;
+  /* padding: 1% 1% 0 0; */
+  padding-right: 0%;
+  margin-left: 2px;
+  margin-right: 2px;
+  
+  display: block;
+  color: black;
+  text-align: left !important;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: rgb(230, 113, 41);
+  border-radius: 2.5px !important;
+}
+
+/* .topnav a.active {
+  background-color: rgb(230, 113, 41);
+  color: rgb(180, 180, 180);
+} */
+
+.topnav .icon {
+  display: block;
+}
+
+<ul class="topnav" id="myTopnav">
+           <li> <a href="/" class="active"> Home </a></li>
+            <a href="/bec"> Bits em Chamas </a>
+            <a href="/cave"> Cave </a>
+            <a href="/cave-game">C A V E * G A M E</a>
+            <a href="/eqt"> Ela quer tudo </a>
+            <a href="/feq"> Frágil equilíbrio </a>
+            <a href="/hw"> Hello World </a>
+            <!-- <a href="/2020"> 2020 </a> -->
+            <a href="/2050"> 2050 </a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </ul>
