@@ -48,11 +48,6 @@ def doismilecinquenta():
 
         return render_template('2050.html')
 
-@app.route("/thx")
-def thx():
-
-        return render_template('thx.html')
-
 @app.route("/cave-game")
 def caveGame():
         
