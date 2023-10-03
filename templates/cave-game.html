@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    C A V E - Beta 2.0 :D
+{% endblock %}
+
+{% block main %}
+
+
+<script type="text/javascript">
+
+    if (screen.width <= 699) {
+    document.location = "/no-mobile";
+    }
+    
+</script>
+
+<script language=javascript>
+  
+    if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPad/i))) {
+       location.replace("/no-mobile");
+    }
+  
+    </script>
+
+<div class="capa-container">
+    <div class="game">
+        <iframe src="https://i.simmer.io/@al3rcio/cave-game-beta-2" style="width:360px;height:640px;border:0"></iframe>
+    </div>
+    
+</div>    
+{% endblock %}
